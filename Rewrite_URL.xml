@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<?charles serialisation-version='2.0' ?>
+<charles-export>
+  <toolConfiguration>
+    <configs>
+      <entry>
+        <string>Rewrite</string>
+        <rewrite>
+          <toolEnabled>true</toolEnabled>
+          <debugging>false</debugging>
+          <sets>
+            <rewriteSet>
+              <active>true</active>
+              <name>test1</name>
+              <hosts>
+                <locationPatterns>
+                  <locationMatch>
+                    <location>
+                      <protocol>https</protocol>
+                      <host>www.google.by</host>
+                      <path>/</path>
+                    </location>
+                    <enabled>true</enabled>
+                  </locationMatch>
+                </locationPatterns>
+              </hosts>
+              <rules>
+                <rewriteRule>
+                  <active>true</active>
+                  <ruleType>6</ruleType>
+                  <matchValue>https://www.google.by/</matchValue>
+                  <matchHeaderRegex>false</matchHeaderRegex>
+                  <matchValueRegex>false</matchValueRegex>
+                  <matchRequest>false</matchRequest>
+                  <matchResponse>false</matchResponse>
+                  <newValue>https://yandex.by/</newValue>
+                  <newHeaderRegex>false</newHeaderRegex>
+                  <newValueRegex>false</newValueRegex>
+                  <matchWholeValue>false</matchWholeValue>
+                  <caseSensitive>false</caseSensitive>
+                  <replaceType>2</replaceType>
+                </rewriteRule>
+              </rules>
+            </rewriteSet>
+          </sets>
+        </rewrite>
+      </entry>
+    </configs>
+  </toolConfiguration>
+</charles-export>
