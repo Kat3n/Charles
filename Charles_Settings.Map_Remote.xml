@@ -1,3 +1,5 @@
+/*Map Remote -подмена хостов (переадресация запросов с одного хоста на другой)*/
+
 <?xml version='1.0' encoding='UTF-8' ?>
 <?charles serialisation-version='2.0' ?>
 <charles-export>
