@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<?charles serialisation-version='2.0' ?>
+<charles-export>
+  <toolConfiguration>
+    <configs>
+      <entry>
+        <string>Allow List</string>
+        <whitelist>
+          <locations>
+            <locationPatterns>
+              <locationMatch>
+                <location>
+                  <protocol>http</protocol>
+                  <host>users.bugred.ru</host>
+                  <path>/</path>
+                </location>
+                <enabled>true</enabled>
+              </locationMatch>
+            </locationPatterns>
+          </locations>
+          <toolEnabled>true</toolEnabled>
+          <useSelectedLocations>false</useSelectedLocations>
+          <action>1</action>
+        </whitelist>
+      </entry>
+    </configs>
+  </toolConfiguration>
+</charles-export>
