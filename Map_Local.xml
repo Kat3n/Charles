@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<?charles serialisation-version='2.0' ?>
+<charles-export>
+  <toolConfiguration>
+    <configs>
+      <entry>
+        <string>Map Local</string>
+        <mapLocal>
+          <toolEnabled>true</toolEnabled>
+          <mappings>
+            <mapLocalMapping>
+              <sourceLocation>
+                <protocol>https</protocol>
+                <host>www.google.by</host>
+                <path>/</path>
+              </sourceLocation>
+              <dest>https://yandex.by/</dest>
+              <enabled>false</enabled>
+              <caseSensitive>true</caseSensitive>
+            </mapLocalMapping>
+            <mapLocalMapping>
+              <sourceLocation>
+                <protocol>https</protocol>
+                <host>www.google.by</host>
+                <path>/</path>
+              </sourceLocation>
+              <dest>E:\Без названия.jpg</dest>
+              <enabled>true</enabled>
+              <caseSensitive>true</caseSensitive>
+            </mapLocalMapping>
+          </mappings>
+        </mapLocal>
+      </entry>
+    </configs>
+  </toolConfiguration>
+</charles-export>
